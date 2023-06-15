@@ -20,9 +20,11 @@ Programı kullanmak için aşağıdaki adımları izleyin:
   int[][] a = pf.random2dArray(n, m);
   
   // 2D diziyi yazdır
+  
   pf.print2d(a);
   
   // 2D dizideki tepe noktasını bul
+  
   int[] peak = pf.peakFinder2D(a, n, m, rowOrcol);
   System.out.println("Tepe noktası: " + a[peak[0]][peak[1]]);
 
@@ -33,9 +35,11 @@ Programı kullanmak için aşağıdaki adımları izleyin:
   int[][][] a = pf.random3dArray(n, m, d);
   
   // 3D diziyi yazdır
+  
   pf.print3d(a);
   
   // 3D dizideki tepe noktasını bul
+  
   int[] peak = pf.peakFinder3D(a, n, m, d);
   System.out.println("Tepe noktası: " + a[peak[0]][peak[1]][peak[2]]);
 
